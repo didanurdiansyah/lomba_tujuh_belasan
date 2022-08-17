@@ -2,7 +2,7 @@
 
 | Title        |   | Description                    |   
 |--------------|---|--------------------------------|
-| **Nama Discord dan Id** | : | [I.T] Dheidza (1009370573786337301)     |
+| **Nama Discord dan Id** | : | [I.T] Dheidza  |
 | **Author**       | : | Dida Nurdiansyah 	            |
 | **Tema**       | : | Perlawanan Perjajahan 1945   |
 | **Category**    | : | Website Static              |
