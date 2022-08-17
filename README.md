@@ -7,4 +7,3 @@
 | **Tema**       | : | Perlawanan Perjajahan 1945   |
 | **Category**    | : | Website Static              |
 | **Referensi** | : | https://tirto.id/sejarah-peristiwa-bandung-lautan-api-penyebab-kronologi-tokoh-gajf |
-| **Live Preview** | : | [Website](https://website-tujuh-belas.netlify.app/) |
