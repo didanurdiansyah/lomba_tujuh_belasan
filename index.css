@@ -1,0 +1,151 @@
+body {
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+.head {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 10;
+  color: #dedede;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  padding: 15px 20px;
+  background-color: rgba(96, 12, 12, 0.8);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.75);
+  font-family: "Archivo Black", sans-serif;
+}
+
+.content {
+  display: block;
+  padding: 20px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+.black-00 {
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  transform-style: inherit;
+  padding: 2vh 4vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.desc-word {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #eee;
+  letter-spacing: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.parallexOne::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 100vh;
+  display: block;
+  background-image: url("./image2.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.parallexTwo::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 100vh;
+  display: block;
+  background-image: url("./image1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.parallexThree::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 100vh;
+  display: block;
+  background-image: url("./image3.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.parallexFour::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 100vh;
+  display: block;
+  background-image: url("./image4.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.parallexFive::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  min-height: 100vh;
+  display: block;
+  background-image: url("./image5.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  filter: blur(2px);
+  z-index: -1;
+}
+
+.title-word {
+  color: rgba(99, 0, 0, 0.8);
+  font-size: 5em;
+  text-transform: uppercase;
+  font-family: "Archivo Black", sans-serif;
+  /* text-shadow: 1px 1px 8px rgba(255, 255, 255, 0.7); */
+}
+
+.footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 10px 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.75);
+  color: #222;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+audio {
+  position: fixed;
+}
